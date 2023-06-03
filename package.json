@@ -1,6 +1,6 @@
 {
   "name": "conways-grid-of-life",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A simple implementation of Conway's Game of Life, using CSS Grid and JavaScript.",
   "main": "index.js",
   "repository": {
