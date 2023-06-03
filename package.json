@@ -1,0 +1,16 @@
+{
+  "name": "conways-grid-of-life",
+  "version": "0.1.0",
+  "description": "A simple implementation of Conway's Game of Life, using CSS Grid and JavaScript.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgegreenedev/conways-grid-of-life.git"
+  },
+  "author": "George Greene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgegreenedev/conways-grid-of-life/issues"
+  },
+  "homepage": "https://github.com/georgegreenedev/conways-grid-of-life#readme"
+}
