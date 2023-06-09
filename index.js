@@ -38,3 +38,11 @@ function seedGrid() {
         grid.appendChild(cell);
     }
 }
+
+function getNextGridState() {
+    nextState = [];
+    for (let i = 0; i < 100; i++) {
+        getAliveNeighborCount(i, isCellAlive(i));
+    }
+    paintNextGridState();
+}
