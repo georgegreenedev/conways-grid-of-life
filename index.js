@@ -139,3 +139,20 @@ function getAliveNeighborCount(index, state) {
         nextState.push(0)
     }
 }
+
+function paintNextGridState() {
+    nextState.forEach((num, i) => {
+        if (num === 0) {
+            grid.children[i].style.backgroundColor = 'white';
+        }
+        if (num === 1) {
+            grid.children[i].style.backgroundColor = 'black';
+        }
+    })
+
+    if (nextState.filter(i => i === 0).length === 0 || nextState.filter(i => i === 1).length === 0) {
+        console.log('replace')
+        grid.replaceChildren()
+        seedGrid()
+    }
+}
