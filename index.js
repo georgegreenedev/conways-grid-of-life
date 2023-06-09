@@ -46,3 +46,7 @@ function getNextGridState() {
     }
     paintNextGridState();
 }
+
+function isCellAlive(index) {
+    return grid.children[index].style.backgroundColor === 'black';
+}
