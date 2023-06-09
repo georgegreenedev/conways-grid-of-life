@@ -24,6 +24,7 @@
 
 
 const grid = document.getElementById('game');
+let nextState = [];
 
 seedGrid()
 
