@@ -27,6 +27,7 @@ const grid = document.getElementById('game');
 let nextState = [];
 
 seedGrid()
+setInterval(getNextGridState, 1000)
 
 function seedGrid() {
     for (let i = 0; i < 100; i++) {
