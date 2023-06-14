@@ -1,5 +1,6 @@
 #game {
   display: grid;
-  height: 100svh;
+  height: 100px;
+  width: 100px;
   grid-template: repeat(10, 1fr) / repeat(10, 1fr);
 }
